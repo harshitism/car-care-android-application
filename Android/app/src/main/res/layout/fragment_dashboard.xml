@@ -1,0 +1,691 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context="com.car.maintenance.Fragment.DashboardFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_border_grey"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LIVE PRICES"
+                    android:textColor="@color/Grey800"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.facebook.shimmer.ShimmerFrameLayout
+                        android:id="@+id/shimmer1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/Grey300"
+                                android:text="77.14"
+                                android:textColor="@color/Grey300"
+                                android:textSize="30sp" />
+                        </LinearLayout>
+                    </com.facebook.shimmer.ShimmerFrameLayout>
+
+                    <LinearLayout
+                        android:id="@+id/petrol_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/petrol"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="77.14"
+                            android:textColor="@color/Blue600"
+                            android:textSize="30sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" Rs/lt"
+                            android:textColor="@color/Blue500"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PETROL"
+                            android:textColor="@color/Grey900"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <com.facebook.shimmer.ShimmerFrameLayout
+                        android:id="@+id/shimmer2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@color/Grey300"
+                                android:text="77.14"
+                                android:textColor="@color/Grey300"
+                                android:textSize="30sp" />
+                        </LinearLayout>
+                    </com.facebook.shimmer.ShimmerFrameLayout>
+
+                    <LinearLayout
+                        android:id="@+id/diesel_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/diesel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="77.14"
+                            android:textColor="@color/Orange600"
+                            android:textSize="30sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" Rs/lt"
+                            android:textColor="@color/Orange500"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="DIESEL"
+                            android:textColor="@color/Grey900"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/city_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                </android.support.v7.widget.AppCompatSpinner>
+
+                <Button
+                    android:id="@+id/all_cities"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackground"
+                    android:drawableRight="@drawable/chevron_right"
+                    android:drawableTint="@color/Blue500"
+                    android:text="ALL CITIES"
+                    android:textColor="@color/Blue500" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/complete_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_border_grey"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:visibility="gone"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/chevron_right"
+                android:text="Complete your profile"
+                android:textColor="@color/Red500"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get recommendations &amp; save more"
+                android:textColor="@color/Red300"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_border_grey"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ADD NEW"
+                    android:textColor="@color/Grey800"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* Add all your previous expenses in chronological order. Otherwise system will give you errors."
+                android:textSize="10sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/refuel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@drawable/custom_button_blue"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:text="REFUELING"
+                    android:textColor="@color/White" />
+
+                <Button
+                    android:id="@+id/service_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/custom_button_orange"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:text="SERVICE"
+                    android:textColor="@color/White" />
+
+                <Button
+                    android:id="@+id/expense"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/custom_button_teal"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:text="EXPENSE"
+                    android:textColor="@color/White" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_border_grey"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NEXT SERVICE DUE"
+                    android:textColor="@color/Grey800"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/service_kms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10000 Kms"
+                    android:textColor="@color/Grey700"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/service_done_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/custom_border_green"
+                    android:text="DONE"
+                    android:textColor="@color/Green500" />
+
+                <ProgressBar
+                    android:id="@+id/service_progress"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/service_kms"
+                    android:layout_marginTop="20dp"
+                    android:progress="25"
+                    android:progressBackgroundTint="@color/Grey200"
+                    android:progressTint="@color/Red300" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/banner_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_border_grey"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FUEL COMSUMPTION"
+                    android:textColor="@color/Grey800"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/last_3month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs 0"
+                        android:textColor="@color/Blue600"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Last 3 Mon"
+                        android:textColor="@color/Grey900"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/last_month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs 0"
+                        android:textColor="@color/Blue500"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Last Mon"
+                        android:textColor="@color/Grey900"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/this_month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs 0"
+                        android:textColor="@color/Blue500"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="This Mon"
+                        android:textColor="@color/Grey900"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_border_grey"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OTHER EXPENSES"
+                    android:textColor="@color/Grey800"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/last_3month_o"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs 0"
+                        android:textColor="@color/Blue600"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Last 3 Mon"
+                        android:textColor="@color/Grey900"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/last_month_o"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs 0"
+                        android:textColor="@color/Blue500"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Last Mon"
+                        android:textColor="@color/Grey900"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/this_month_o"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rs 0"
+                        android:textColor="@color/Blue500"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="This Mon"
+                        android:textColor="@color/Grey900"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_border_grey"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="USEFUL SERVICES"
+                    android:textColor="@color/Grey800"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/vehicle_rel_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?attr/borderlessButtonStyle"
+                android:text="Vehicle Related Services"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue500"
+
+                />
+
+            <Button
+                android:id="@+id/licence_rel_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?attr/borderlessButtonStyle"
+                android:text="DL Related Services"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue500"
+                />
+            <Button
+                android:id="@+id/fancy_number_booking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?attr/borderlessButtonStyle"
+                android:text="Fancy Number Booking"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue500"
+                />
+
+            <Button
+                android:id="@+id/know_licence_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?attr/borderlessButtonStyle"
+                android:text="Know your DL Details"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue500"
+                />
+            <Button
+                android:id="@+id/authorization_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?attr/borderlessButtonStyle"
+                android:text="E-Authorization Card"
+                android:textAllCaps="false"
+                android:textColor="@color/Blue500"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_border_grey"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LIKE OUR APP ?"
+                    android:textColor="@color/Grey800"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:numStars="5" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

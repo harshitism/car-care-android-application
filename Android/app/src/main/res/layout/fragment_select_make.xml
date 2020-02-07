@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Grey200"
+    android:orientation="vertical"
+    tools:context="com.car.maintenance.Fragment.SelectCompanyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select your vehicle company"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="@color/Grey900"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:divider="@color/Grey200"
+        android:dividerHeight="10dp"></ListView>
+
+</LinearLayout>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.car.maintenance.Activity.AddExpenseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="ExpenseType" />
+
+            <EditText
+                android:id="@+id/expense_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/custom_border_grey"
+                android:clickable="false"
+                android:longClickable="false"
+                android:focusable="false"
+                android:padding="10dp"
+                android:text="REFUEL" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/part_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Part(Change)" />
+
+            <EditText
+                android:id="@+id/part"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/custom_border_grey"
+                android:clickable="false"
+                android:focusable="false"
+                android:hint=""
+                android:longClickable="false"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Odometer(Now)" />
+
+            <EditText
+                android:id="@+id/odometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/custom_border_grey"
+                android:digits="1234567890"
+                android:hint="in KMs"
+                android:inputType="number"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/previous_odo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Previous Odometer - 0 kms"
+            android:textColor="@color/Orange500" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Amount" />
+
+            <EditText
+                android:id="@+id/amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/custom_border_grey"
+                android:digits="1234567890"
+                android:hint="in Rs"
+                android:inputType="number"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Date" />
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/custom_border_grey"
+                android:clickable="true"
+                android:focusable="false"
+                android:hint="yyyy/mm/dd"
+                android:inputType="number"
+                android:nextFocusRight="@+id/month"
+                android:padding="10dp" />
+
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" - " />
+
+            <EditText
+                android:id="@+id/month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_border_grey"
+                android:digits="123456790"
+                android:hint="mm"
+                android:inputType="number"
+                android:nextFocusRight="@+id/year"
+                android:maxLength="2"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" - " />
+
+            <EditText
+                android:id="@+id/year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_border_grey"
+                android:digits="1234567890"
+                android:hint="yyyy"
+                android:inputType="number"
+                android:maxLength="4"
+                android:padding="10dp" />
+-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+                android:text="Quick Select - "
+                android:textSize="10sp" />
+
+
+            <TextView
+                android:id="@+id/quick_2days"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_border_grey"
+                android:padding="5dp"
+                android:text="- 2 Days"
+                android:textAllCaps="true"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/quick_yesterday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/custom_border_grey"
+                android:padding="5dp"
+                android:text="Yesterday"
+                android:textAllCaps="true"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/quick_today"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_border_grey"
+                android:padding="5dp"
+                android:text="Today"
+                android:textAllCaps="true"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Place" />
+
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/custom_border_grey"
+                android:clickable="true"
+                android:focusable="false"
+                android:hint="Search location"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/note_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Note" />
+
+            <EditText
+                android:id="@+id/note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/custom_border_grey"
+                android:hint="Air/Tolls/Tax/Fines/Repair"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_button_green"
+            android:text="SAVE"
+            android:textColor="@color/White" />
+
+        <LinearLayout
+            android:id="@+id/banner_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

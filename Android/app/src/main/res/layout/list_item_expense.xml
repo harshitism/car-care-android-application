@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <!-- the circular icon on the left -->
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_button_green"
+        android:padding="4dp"
+        android:tint="@android:color/white"
+        app:srcCompat="@drawable/gas_station" />
+
+    <!-- the blue line -->
+    <FrameLayout
+        android:id="@+id/item_line"
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button_blue_light">
+
+        <!-- the semi transparent circle on the line -->
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_button_blue" />
+
+    </FrameLayout>
+
+    <!-- views at the right of the blue line -->
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="REFUELING"
+            android:textColor="@color/Grey900"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/currency_inr"
+            android:padding="10dp"
+            android:drawableTint="@color/Grey700"
+            android:background="@drawable/custom_border_grey"
+            android:text="500"
+            android:textSize="20sp"
+            android:drawablePadding="5dp"
+            android:textColor="@color/Grey700" />
+
+        <TextView
+            android:id="@+id/odometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/speedometer"
+            android:drawablePadding="5dp"
+            android:layout_below="@id/type"
+            android:drawableTint="@color/Grey500"
+            android:text="24000 KM"
+            android:textColor="@color/Grey500" />
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/odometer"
+            android:drawableLeft="@drawable/calendar"
+            android:drawableTint="@color/Grey500"
+            android:text="23-10-2018"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:textColor="@color/Grey500" />
+
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Air Filter"
+            android:textColor="@color/Grey500" />
+
+
+        <!--<ImageButton
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/date"
+            android:background="?attr/selectableItemBackground"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:tint="@color/Grey700"
+            app:srcCompat="@drawable/pencil" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date"
+            android:layout_toLeftOf="@id/edit"
+            android:layout_marginTop="10dp"
+            android:background="?attr/selectableItemBackground"
+            android:padding="5dp"
+            android:tint="@color/Red500"
+            app:srcCompat="@drawable/delete" />-->
+        <!-- other views -->
+
+    </RelativeLayout>
+</LinearLayout>
+

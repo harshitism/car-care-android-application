@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/dashboard"
+        android:title="Dashboard" />
+
+    <item
+        android:id="@+id/expenses"
+        android:icon="@drawable/cash"
+        android:title="Expenses" />
+
+    <item
+        android:id="@+id/vehicle_parts"
+        android:icon="@drawable/hammer"
+        android:title="Vehicle Parts" />
+    <item
+        android:id="@+id/blog"
+        android:icon="@drawable/book_open_page_variant"
+        android:title="Must Reads" />
+
+</menu>

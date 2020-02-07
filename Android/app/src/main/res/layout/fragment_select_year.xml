@@ -1,0 +1,136 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.car.maintenance.Fragment.SelectFuelFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_border_grey"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/logo1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/car" />
+
+            <TextView
+                android:id="@+id/name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/logo1"
+                android:text="CAR"
+
+                android:drawableRight="@drawable/check_all"
+                android:textAllCaps="true"
+                android:textColor="@color/Grey700"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_border_grey"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/logo2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/car" />
+
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/logo2"
+                android:text="CAR"
+                android:drawableRight="@drawable/check_all"
+                android:textAllCaps="true"
+                android:textColor="@color/Grey700"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_border_grey"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/logo3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:tint="@color/Grey500"
+                app:srcCompat="@drawable/gas_station" />
+
+            <TextView
+                android:id="@+id/name3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/logo3"
+                android:text="FUEL"
+                android:drawableRight="@drawable/check_all"
+                android:textAllCaps="true"
+                android:textColor="@color/Grey700"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Select your vehicle year "
+            android:textColor="@color/Grey900"
+            android:textSize="20sp" />
+
+        <GridView
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:horizontalSpacing="10dp"
+            android:numColumns="4"
+            android:layout_margin="10dp"
+            android:verticalSpacing="10dp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

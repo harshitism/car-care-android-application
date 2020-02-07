@@ -1,0 +1,386 @@
+{
+  "project_info": {
+    "project_number": "760127590769",
+    "firebase_url": "https://car-care-1.firebaseio.com",
+    "project_id": "car-care-1",
+    "storage_bucket": "car-care-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760127590769:android:f819cc8bf3c19f2b",
+        "android_client_info": {
+          "package_name": "com.car.care"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760127590769-ljoseaa5dcr688c1slsp2pkt3qpb0nej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.car.care",
+            "certificate_hash": "664795ca97f3e63bf617c31c3ade31968f6a784f"
+          }
+        },
+        {
+          "client_id": "760127590769-41n95jn89u04lq4e8oriiv21gmacv7hb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.car.care",
+            "certificate_hash": "71d24159d9b7ffe09dfe242a501bc1dbd7a0d1eb"
+          }
+        },
+        {
+          "client_id": "760127590769-5u6l7b8bm60jpu09tu2i0j4csni5t0un.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.car.care",
+            "certificate_hash": "c124101f6b051f64c8e50c74f54501d6cd38867f"
+          }
+        },
+        {
+          "client_id": "760127590769-4ft2a4ehnvem5cotpel5cmrncmo1b34t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.car.care",
+            "certificate_hash": "4536b80d6914d20dc9209317551f9e96ee48e781"
+          }
+        },
+        {
+          "client_id": "760127590769-fq31pn9eaghq5dhqek4cklvoq97amekn.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "760127590769-fq31pn9eaghq5dhqek4cklvoq97amekn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAqvzpYvrf9rOvkiX7Zd3G7RFK1CWPWKM"
+        },
+        {
+          "current_key": "AIzaSyCgYzFZc0kpXKzt7WlKSHlpo8EVZuAjLBE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760127590769-fq31pn9eaghq5dhqek4cklvoq97amekn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760127590769:android:091a7f0ca9fa30fb",
+        "android_client_info": {
+          "package_name": "com.car.maintenance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760127590769-cspsgqudmup1kq2dorecaq7r43amhigj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.car.maintenance",
+            "certificate_hash": "664795ca97f3e63bf617c31c3ade31968f6a784f"
+          }
+        },
+        {
+          "client_id": "760127590769-ep74l811dbor5j1vh4j4o3vsjljvefls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.car.maintenance",
+            "certificate_hash": "71d24159d9b7ffe09dfe242a501bc1dbd7a0d1eb"
+          }
+        },
+        {
+          "client_id": "760127590769-tap65mub34dp592g31q5061e8ks0qgl4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.car.maintenance",
+            "certificate_hash": "c124101f6b051f64c8e50c74f54501d6cd38867f"
+          }
+        },
+        {
+          "client_id": "760127590769-orau5ibr8kk4qqep4ro0r80a4chhspeh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.car.maintenance",
+            "certificate_hash": "4536b80d6914d20dc9209317551f9e96ee48e781"
+          }
+        },
+        {
+          "client_id": "760127590769-fq31pn9eaghq5dhqek4cklvoq97amekn.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "760127590769-fq31pn9eaghq5dhqek4cklvoq97amekn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAqvzpYvrf9rOvkiX7Zd3G7RFK1CWPWKM"
+        },
+        {
+          "current_key": "AIzaSyCgYzFZc0kpXKzt7WlKSHlpo8EVZuAjLBE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760127590769-fq31pn9eaghq5dhqek4cklvoq97amekn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760127590769:android:89cbf0c597a82555",
+        "android_client_info": {
+          "package_name": "com.care.maintenance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760127590769-klagrh8vt2qm22lad0hvrnnmdhhj9s9h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.care.maintenance",
+            "certificate_hash": "4536b80d6914d20dc9209317551f9e96ee48e781"
+          }
+        },
+        {
+          "client_id": "760127590769-2j4cb4l645d76k657858ii5tncjl4qvc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.care.maintenance",
+            "certificate_hash": "c124101f6b051f64c8e50c74f54501d6cd38867f"
+          }
+        },
+        {
+          "client_id": "760127590769-dunu42neplgvi8bkn2nogtoeshftan2g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.care.maintenance",
+            "certificate_hash": "71d24159d9b7ffe09dfe242a501bc1dbd7a0d1eb"
+          }
+        },
+        {
+          "client_id": "760127590769-gf4876r2kenhucb8l4uriq5o76gp2igl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.care.maintenance",
+            "certificate_hash": "664795ca97f3e63bf617c31c3ade31968f6a784f"
+          }
+        },
+        {
+          "client_id": "760127590769-fq31pn9eaghq5dhqek4cklvoq97amekn.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "760127590769-fq31pn9eaghq5dhqek4cklvoq97amekn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAqvzpYvrf9rOvkiX7Zd3G7RFK1CWPWKM"
+        },
+        {
+          "current_key": "AIzaSyCgYzFZc0kpXKzt7WlKSHlpo8EVZuAjLBE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760127590769-fq31pn9eaghq5dhqek4cklvoq97amekn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760127590769:android:ad87dd02b15748f5",
+        "android_client_info": {
+          "package_name": "goldrush.car.care"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760127590769-d60vi5rj0fp5psqig33e4tu9qsllm4fi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "goldrush.car.care",
+            "certificate_hash": "664795ca97f3e63bf617c31c3ade31968f6a784f"
+          }
+        },
+        {
+          "client_id": "760127590769-0s3fl98tptk8i4lgff452dfph4qb8dag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "goldrush.car.care",
+            "certificate_hash": "71d24159d9b7ffe09dfe242a501bc1dbd7a0d1eb"
+          }
+        },
+        {
+          "client_id": "760127590769-ktcntkiq950n359eo7trk5dpq99od73m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "goldrush.car.care",
+            "certificate_hash": "c124101f6b051f64c8e50c74f54501d6cd38867f"
+          }
+        },
+        {
+          "client_id": "760127590769-ph5q1ljavt8tbimh1dcatmv0ge3do47b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "goldrush.car.care",
+            "certificate_hash": "4536b80d6914d20dc9209317551f9e96ee48e781"
+          }
+        },
+        {
+          "client_id": "760127590769-fq31pn9eaghq5dhqek4cklvoq97amekn.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "760127590769-fq31pn9eaghq5dhqek4cklvoq97amekn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAqvzpYvrf9rOvkiX7Zd3G7RFK1CWPWKM"
+        },
+        {
+          "current_key": "AIzaSyCgYzFZc0kpXKzt7WlKSHlpo8EVZuAjLBE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760127590769-fq31pn9eaghq5dhqek4cklvoq97amekn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760127590769:android:a89f47e4989e3397",
+        "android_client_info": {
+          "package_name": "goldrush.care.care"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760127590769-rfim0p16sb7sti5916jhaqef9o1gse0p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "goldrush.care.care",
+            "certificate_hash": "4536b80d6914d20dc9209317551f9e96ee48e781"
+          }
+        },
+        {
+          "client_id": "760127590769-jg3ude2pckdjlo4d2ooivrbb5lv27im3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "goldrush.care.care",
+            "certificate_hash": "c124101f6b051f64c8e50c74f54501d6cd38867f"
+          }
+        },
+        {
+          "client_id": "760127590769-1i1dgrsg902gqcf6j9sq9bf698m9hd5a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "goldrush.care.care",
+            "certificate_hash": "71d24159d9b7ffe09dfe242a501bc1dbd7a0d1eb"
+          }
+        },
+        {
+          "client_id": "760127590769-4uuqsr6fetl9juiqoibmg3llg6i6h8lf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "goldrush.care.care",
+            "certificate_hash": "664795ca97f3e63bf617c31c3ade31968f6a784f"
+          }
+        },
+        {
+          "client_id": "760127590769-fq31pn9eaghq5dhqek4cklvoq97amekn.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "760127590769-fq31pn9eaghq5dhqek4cklvoq97amekn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAqvzpYvrf9rOvkiX7Zd3G7RFK1CWPWKM"
+        },
+        {
+          "current_key": "AIzaSyCgYzFZc0kpXKzt7WlKSHlpo8EVZuAjLBE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760127590769-fq31pn9eaghq5dhqek4cklvoq97amekn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
